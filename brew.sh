@@ -45,7 +45,51 @@ brew install gnupg
 # brew install openssh
 
 # Install other useful binaries.
+brew install ansible
+brew install aspell
+brew install automake
+# brew install azure-cli
+brew install bash
+brew install cmake
 brew install git
+brew install git-filter-repo
+brew install gnupg
+brew install hunspell
+brew install jansson
+# brew install jeffreywildman/virt-manager/virt-viewer
+brew install libgccjit
+brew install libvterm
+brew install luarocks
+brew install nmap
+brew install node
+brew install ocrmypdf
+# brew install pdftohtml
+brew install pstree
+brew install rename
+brew install shellcheck
+brew install subversion
+brew install texinfo
+brew install texlab
+# brew install tg44/heptapod/heptapod
+brew install tree
+brew install wget
+
+# Install other useful binaries (casks).
+basictex
+db-browser-for-sqlite
+emacs-app
+font-bitstream-vera
+font-dejavu
+font-fira-code
+font-fira-mono
+font-hack
+font-inconsolata
+font-source-code-pro
+font-ubuntu-mono
+mos
+mpv
+# pdf-toolbox
+zenmap
 
 # Remove outdated versions from the cellar.
 brew cleanup

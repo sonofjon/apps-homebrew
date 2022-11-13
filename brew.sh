@@ -138,5 +138,16 @@ brew install --cask zoom
 brew tap homebrew/cask-drivers
 brew install --cask garmin-express
 
+# Enable App Store
+brew install mas
+
+# Install applications (App Store).
+#   Missing applications:
+#     dJay Pro 2
+mas install 937984704   # Amphetamine
+mas install 1160435653  # AutoMounter
+mas install 408981434   # iMovie
+mas install 784801555   # Microsoft OneNote
+
 # Remove outdated versions from the cellar.
 brew cleanup

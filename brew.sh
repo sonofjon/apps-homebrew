@@ -27,6 +27,7 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
+# brew install bash-completion
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell

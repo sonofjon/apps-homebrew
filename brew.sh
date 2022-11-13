@@ -135,5 +135,8 @@ brew install --cask webtorrent
 brew install --cask zenmap
 brew install --cask zoom
 
+brew tap homebrew/cask-drivers
+brew install --cask garmin-express
+
 # Remove outdated versions from the cellar.
 brew cleanup

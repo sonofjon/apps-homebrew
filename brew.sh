@@ -87,18 +87,20 @@ brew tap homebrew/cask-fonts
 basictex
 db-browser-for-sqlite
 emacs-app
-font-bitstream-vera
-font-dejavu
-font-fira-code
-font-fira-mono
-font-hack
-font-inconsolata
-font-source-code-pro
-font-ubuntu-mono
 mos
 mpv
 # pdf-toolbox
 zenmap
+
+# Install fonts.
+brew install --cask font-bitstream-vera
+brew install --cask font-dejavu
+brew install --cask font-fira-code
+brew install --cask font-fira-mono
+brew install --cask font-hack
+brew install --cask font-inconsolata
+brew install --cask font-source-code-pro
+# brew install --cask font-ubuntu-mono
 
 # Remove outdated versions from the cellar.
 brew cleanup

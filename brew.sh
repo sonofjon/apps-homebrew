@@ -84,13 +84,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
 
 # Install other useful binaries (casks).
-basictex
-db-browser-for-sqlite
-emacs-app
-mos
-mpv
-# pdf-toolbox
-zenmap
+brew install --cask basictex
 
 # Install fonts.
 brew install --cask font-bitstream-vera
@@ -101,6 +95,45 @@ brew install --cask font-hack
 brew install --cask font-inconsolata
 brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono
+
+# Install applications (casks).
+brew install --cask alt-tab
+brew install --cask barrier
+brew install --cask bettertouchtool
+brew install --cask db-browser-for-sqlite
+brew install --cask coconutbattery
+brew install --cask darktable
+brew install --cask dropbox
+# brew install --cask duplicacy   # discontinued upstream
+brew install --cask duplicacy-web-edition
+brew install --cask emacs-app
+brew install --cask evernote
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask istat-menus
+brew install --cask iterm2
+brew install --cask joplin
+brew install --cask karabiner-elements
+brew install --cask microsoft-edge
+brew install --cask microsoft-teams
+brew install --cask mos
+brew install --cask mpv
+brew install --cask nomachine
+brew install --cask openvpn-connect
+brew install --cask paragon-ntfs
+brew install --cask # pdf-toolbox
+brew install --cask plex
+brew install --cask purevpn
+brew install --cask qbittorrent
+brew install --cask skype
+brew install --cask spotify
+brew install --cask virtualbox
+brew install --cask virtualbo-extension-pack
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask webtorrent
+brew install --cask zenmap
+brew install --cask zoom
 
 # Remove outdated versions from the cellar.
 brew cleanup

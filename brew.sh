@@ -74,6 +74,15 @@ brew install texlab
 brew install tree
 brew install wget
 
+# Use casks
+brew tap homebrew/cask
+# Add alternative cask versions
+brew tap homebrew/cask-versions
+# ?
+# brew tap homebrew/bundle
+# Add fonts repo
+brew tap homebrew/cask-fonts
+
 # Install other useful binaries (casks).
 basictex
 db-browser-for-sqlite

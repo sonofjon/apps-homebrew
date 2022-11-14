@@ -141,6 +141,7 @@ brew install mas
 # Install applications (App Store)
 #   Missing applications:
 #     dJay Pro 2
+#     dJay Pro AI
 mas install 937984704   # Amphetamine
 mas install 1160435653  # AutoMounter
 mas install 408981434   # iMovie

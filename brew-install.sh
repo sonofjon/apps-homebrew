@@ -125,7 +125,7 @@ brew install --cask qbittorrent
 brew install --cask skype
 brew install --cask spotify
 brew install --cask virtualbox
-brew install --cask virtualbo-extension-pack
+brew install --cask virtualbox-extension-pack
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask webtorrent

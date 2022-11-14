@@ -113,7 +113,7 @@ brew install --cask joplin
 brew install --cask karabiner-elements
 brew install --cask microsoft-edge
 brew install --cask microsoft-teams
-brew install --cask mos
+# brew install --cask mos   # needs an update
 brew install --cask mpv
 brew install --cask nomachine
 brew install --cask openvpn-connect

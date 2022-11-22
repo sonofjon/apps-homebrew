@@ -100,7 +100,7 @@ brew install --cask bettertouchtool
 brew install --cask db-browser-for-sqlite
 brew install --cask coconutbattery
 brew install --cask darktable
-brew install --cask dropbox
+brew install --cask dropbox   # requires kernel extension
 # brew install --cask duplicacy   # discontinued upstream
 brew install --cask duplicacy-web-edition
 brew install --cask emacs
@@ -117,7 +117,7 @@ brew install --cask microsoft-teams
 brew install --cask mpv
 brew install --cask nomachine
 brew install --cask openvpn-connect
-brew install --cask paragon-ntfs
+brew install --cask paragon-ntfs   # requires kernel extension
 # brew install --cask pdf-toolbox
 brew install --cask plex
 brew install --cask purevpn

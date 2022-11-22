@@ -103,7 +103,7 @@ brew install --cask darktable
 brew install --cask dropbox
 # brew install --cask duplicacy   # discontinued upstream
 brew install --cask duplicacy-web-edition
-brew install --cask emacs-app
+brew install --cask emacs
 brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome

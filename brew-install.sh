@@ -59,6 +59,7 @@ brew install libvterm
 brew install luarocks
 brew install nmap
 brew install node
+# brew install nvm   # unsupported upstream
 brew install ocrmypdf
 # brew install pdftohtml
 brew install pstree

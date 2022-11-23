@@ -130,11 +130,11 @@ brew install --cask virtualbox-extension-pack
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask webtorrent
-brew install --cask zenmap
+# brew install --cask zenmap   # requires Rosetta
 brew install --cask zoom
 
 brew tap homebrew/cask-drivers
-brew install --cask garmin-express
+# brew install --cask garmin-express   # requires Rosetta
 
 # Enable App Store
 brew install mas

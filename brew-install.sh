@@ -74,7 +74,8 @@ brew install wget
 # Use casks
 brew tap homebrew/cask
 # Add alternative cask versions
-brew tap homebrew/cask-versions
+#   E.g. for emacs-pretest, emacs-nightly
+# brew tap homebrew/cask-versions
 # Use bundles
 brew tap homebrew/bundle
 # Add fonts repo

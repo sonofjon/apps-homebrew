@@ -42,7 +42,6 @@ brew install bash
 # brew install openssh
 
 # Install other useful binaries
-brew install ansible
 brew install aspell
 brew install automake
 # brew install azure-cli
@@ -56,21 +55,44 @@ brew install jansson
 # brew install jeffreywildman/virt-manager/virt-viewer
 brew install libgccjit
 brew install libvterm
-brew install luarocks
 brew install nmap
-brew install node
 # brew install nvm   # unsupported upstream
 brew install ocrmypdf
 # brew install pdftohtml
 brew install pstree
 brew install rename
-brew install shellcheck
 brew install subversion
 brew install texinfo
-brew install texlab
 # brew install tg44/heptapod/heptapod
 brew install tree
 brew install wget
+
+# Install code libraries
+brew install ansible
+# brew install node   # use nvm instead
+
+# Install language servers
+#   js, html, ccs: install with npm
+# brew install ansible-language-server   # install with nmp
+# brew install bash-language-server      # install with nmp
+brew install texlab
+brew install lua-language-server
+# brew install pyright                   # install with nmp
+# brew install yaml-language-server      # install with nmp
+
+# Install code linters
+#   js, html, ccs: ?
+# brew install eslint                    # install with nmp
+brew install ansible-lint
+brew install shellcheck
+# latex: install chktex with tlmgr
+# lua: install luacheck with luarocks
+# python: Flymake uses pyflakes out of the box (optional: flake8 or pylint)
+brew install yamllint   # dependency of ansible-lint
+
+# Install package managers
+brew install luarocks
+# brew install npm   # install with nvm
 
 # Use casks
 brew tap homebrew/cask

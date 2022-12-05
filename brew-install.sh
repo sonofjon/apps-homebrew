@@ -72,23 +72,74 @@ brew install ansible
 # brew install node   # use nvm instead
 
 # Install language servers
-#   js, html, ccs: install with npm
-# brew install ansible-language-server   # install with nmp
-# brew install bash-language-server      # install with nmp
+#   CSS, HTML, JS, JSON, Markdown: vscode-langservers-extracted
+#   (install with npm)
+
+# Ansible
+# brew install ansible-language-server      # install with npm
+# brew install yaml-language-server         # install with npm
+
+# Bash
+# brew install bash-language-server         # install with npm
+
+# JS
+# brew install typescript...                # NA, install with npm
+
+# JSON
+# brew install json...                      # NA, install with npm
+
+# LaTeX
 brew install texlab
+
+# Lua
 brew install lua-language-server
-# brew install pyright                   # install with nmp
-# brew install yaml-language-server      # install with nmp
+
+# Markdown
+# brew install markdown...                  # NA, install with npm
+
+# Python
+# brew install pyright                      # TODO: install with npm or pip?
 
 # Install code linters
-#   js, html, ccs: ?
-# brew install eslint                    # install with nmp
-brew install ansible-lint
-brew install shellcheck
-# latex: install chktex with tlmgr
-# lua: install luacheck with luarocks
-# python: Flymake uses pyflakes out of the box (optional: flake8 or pylint)
-brew install yamllint   # dependency of ansible-lint
+#   TODO: linting for HTML and JSON does not work
+#         CSS, HTML, JS, JSON, Markdown: ?
+
+# Ansible
+# brew install ansible-lint                 # (not needed)
+# brew install yamllint                     # dependency of ansible-lint
+                                            # (not needed)
+
+# Bash
+brew install shellcheck                     # (needed)
+
+# JS
+# brew install eslint                       # install with npm
+                                            # (might not be needed)
+                                            # included in
+                                            #   vscode-langservers-extracted
+
+# JSON
+# brew install jsonlint                     # TODO: is it needed?
+
+# LaTeX
+# brew install chktex                       # NA, install with tlmgr
+                                            # (not needed)
+
+# Lua
+# brew install luacheck                     # NA, install with luarocks
+                                            # TODO: is it needed?
+
+# Markdown
+# brew install marksman                     # NA
+# brew install markdownlint                 # NA, install with gem
+                                            # TODO: is it needed?
+
+# Python
+# brew install pyflakes                     # NA, install with pip
+                                            # (not needed)
+                                            # Flymake uses pyflakes out
+                                            # of the box (optional:
+                                            # flake8 or pylint)
 
 # Install package managers
 brew install luarocks

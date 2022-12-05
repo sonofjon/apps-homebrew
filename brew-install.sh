@@ -1,57 +1,59 @@
-#####!/usr/bin/env bash
-#####
-##### Install apps and command-line tools using Homebrew.
-#####
-##### Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
-#####
+#!/usr/bin/env bash
+#
+# Install apps and command-line tools using Homebrew.
+#
+# Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
+#
 
 ##### Setup
 
-## Update Homebrew
+## Update
 brew update
 
-## Upgrade outdated formulae
+## Upgrade
 brew upgrade
 
-## Save Homebrew’s installed location
+## Homebrew location
 BREW_PREFIX=$(brew --prefix)
 
 ##### Packages
 
 #### GNU
 
-## Install GNU core utilities
-##   (Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`)
+## GNU core utilities
+##   (don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin`
+##   to $PATH)
 # brew install coreutils
 # ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
-## Install GNU 'find', 'locate', 'updatedb', and 'xargs'
-##   (Programs are prefixed with 'g')
+## GNU find, locate, updatedb and xargs
+##   (programs are prefixed with 'g')
 # brew install findutils
 
-## Install GNU 'sed'
-##   (This overwriting the built-in 'sed')
+## GNU sed
+##   (this overwrites the built-in 'sed')
 # brew install gnu-sed --with-default-names
 
-## Install current version of Bash
+## Bash
 brew install bash
 # brew install bash-completion    # Bash 3.2
 # brew install bash-completion2   # Bash 4.2+
 
-## Switch to using Bash from Homwbrew as default shell
+## Add Homebrew Bash to default shells
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
-## Install more recent versions of some macOS tools
+## Other
+##   More recent versions of macOS tools
 # brew install vim --with-override-system-vi
 # brew install grep
 # brew install openssh
 
 #### Formulae
 
-## Install other useful binaries
+## Binaries
 brew install aspell
 brew install automake
 # brew install azure-cli
@@ -77,17 +79,17 @@ brew install texinfo
 brew install tree
 brew install wget
 
-### Install package managers
+### Package managers
 brew install luarocks
 # brew install npm   # install with nvm
 
-### Install code libraries
+### Code libraries
 brew install ansible
 # brew install node   # use nvm instead
 
-### Install language servers
-##   CSS, HTML, JS, JSON, Markdown: vscode-langservers-extracted
-##   (install with npm)
+### Language servers
+###   CSS, HTML, JS, JSON, Markdown: vscode-langservers-extracted
+###   (install with npm)
 
 ## Ansible
 # brew install ansible-language-server      # install with npm
@@ -114,9 +116,9 @@ brew install lua-language-server
 ## Python
 # brew install pyright                      # TODO: install with npm or pip?
 
-### Install code linters
-##   TODO: linting for HTML and JSON does not work
-##         CSS, HTML, JS, JSON, Markdown: ?
+### Code linters
+###   TODO: linting for HTML and JSON does not work
+###         CSS, HTML, JS, JSON, Markdown: ?
 
 ## Ansible
 # brew install ansible-lint                 # (not needed)
@@ -159,28 +161,28 @@ brew install shellcheck                     # (needed)
 
 ### Setup
 
-## Use casks
+## Standard casks
 brew tap homebrew/cask
 
-## Add alternative cask versions
+## Alternative cask versions
 ##   E.g. for emacs-pretest, emacs-nightly
 # brew tap homebrew/cask-versions
 
-## Use bundles
+## Bundles
 brew tap homebrew/bundle
 
-## Add fonts repo
+## Fonts
 brew tap homebrew/cask-fonts
 
-## Enable App Store
+## App Store
 brew install mas
 
 ### Packages
 
-## Install other useful binaries (casks)
+## Binaries
 brew install --cask basictex
 
-## Install fonts
+## Fonts
 brew install --cask font-bitstream-vera
 brew install --cask font-dejavu
 brew install --cask font-fira-code
@@ -190,7 +192,7 @@ brew install --cask font-inconsolata
 brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono
 
-## Install applications (casks)
+## Applications
 brew install --cask alt-tab
 brew install --cask barrier
 brew install --cask bettertouchtool
@@ -232,7 +234,7 @@ brew install --cask zoom
 brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta
 
-## Install applications (App Store)
+## App Store
 ##   Missing applications:
 ##     dJay Pro 2
 ##     dJay Pro AI

@@ -12,7 +12,7 @@ brew update
 brew upgrade
 
 # Save Homebrew’s installed location
-# BREW_PREFIX=$(brew --prefix)
+BREW_PREFIX=$(brew --prefix)
 
 # Install GNU core utilities
 #   (Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`)
@@ -27,14 +27,14 @@ brew upgrade
 # brew install gnu-sed --with-default-names
 # Install current version of Bash
 brew install bash
-# brew install bash-completion
-# brew install bash-completion2
+# brew install bash-completion    # Bash 3.2
+# brew install bash-completion2   # Bash 4.2+
 
 # Switch to using Bash from Homwbrew as default shell
-# if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
-#   echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
-#   chsh -s "${BREW_PREFIX}/bin/bash";
-# fi;
+if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
+  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
+  chsh -s "${BREW_PREFIX}/bin/bash";
+fi;
 
 # Install more recent versions of some macOS tools
 # brew install vim --with-override-system-vi

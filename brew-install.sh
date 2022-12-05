@@ -1,47 +1,57 @@
-#!/usr/bin/env bash
-#
-# Install apps and command-line tools using Homebrew.
-#
-# Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
-# 
+#####!/usr/bin/env bash
+#####
+##### Install apps and command-line tools using Homebrew.
+#####
+##### Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
+#####
 
-# Update Homebrew
+##### Setup
+
+## Update Homebrew
 brew update
 
-# Upgrade outdated formulae
+## Upgrade outdated formulae
 brew upgrade
 
-# Save Homebrew’s installed location
+## Save Homebrew’s installed location
 BREW_PREFIX=$(brew --prefix)
 
-# Install GNU core utilities
-#   (Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`)
+##### Packages
+
+#### GNU
+
+## Install GNU core utilities
+##   (Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`)
 # brew install coreutils
 # ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
-# Install GNU 'find', 'locate', 'updatedb', and 'xargs'
-#   (Programs are prefixed with 'g')
+## Install GNU 'find', 'locate', 'updatedb', and 'xargs'
+##   (Programs are prefixed with 'g')
 # brew install findutils
-# Install GNU 'sed'
-#   (This overwriting the built-in 'sed')
+
+## Install GNU 'sed'
+##   (This overwriting the built-in 'sed')
 # brew install gnu-sed --with-default-names
-# Install current version of Bash
+
+## Install current version of Bash
 brew install bash
 # brew install bash-completion    # Bash 3.2
 # brew install bash-completion2   # Bash 4.2+
 
-# Switch to using Bash from Homwbrew as default shell
+## Switch to using Bash from Homwbrew as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
-# Install more recent versions of some macOS tools
+## Install more recent versions of some macOS tools
 # brew install vim --with-override-system-vi
 # brew install grep
 # brew install openssh
 
-# Install other useful binaries
+#### Formulae
+
+## Install other useful binaries
 brew install aspell
 brew install automake
 # brew install azure-cli
@@ -67,98 +77,110 @@ brew install texinfo
 brew install tree
 brew install wget
 
-# Install code libraries
+### Install package managers
+brew install luarocks
+# brew install npm   # install with nvm
+
+### Install code libraries
 brew install ansible
 # brew install node   # use nvm instead
 
-# Install language servers
-#   CSS, HTML, JS, JSON, Markdown: vscode-langservers-extracted
-#   (install with npm)
+### Install language servers
+##   CSS, HTML, JS, JSON, Markdown: vscode-langservers-extracted
+##   (install with npm)
 
-# Ansible
+## Ansible
 # brew install ansible-language-server      # install with npm
 # brew install yaml-language-server         # install with npm
 
-# Bash
+## Bash
 # brew install bash-language-server         # install with npm
 
-# JS
+## JS
 # brew install typescript...                # NA, install with npm
 
-# JSON
+## JSON
 # brew install json...                      # NA, install with npm
 
-# LaTeX
+## LaTeX
 brew install texlab
 
 # Lua
 brew install lua-language-server
 
-# Markdown
+## Markdown
 # brew install markdown...                  # NA, install with npm
 
-# Python
+## Python
 # brew install pyright                      # TODO: install with npm or pip?
 
-# Install code linters
-#   TODO: linting for HTML and JSON does not work
-#         CSS, HTML, JS, JSON, Markdown: ?
+### Install code linters
+##   TODO: linting for HTML and JSON does not work
+##         CSS, HTML, JS, JSON, Markdown: ?
 
-# Ansible
+## Ansible
 # brew install ansible-lint                 # (not needed)
 # brew install yamllint                     # dependency of ansible-lint
                                             # (not needed)
 
-# Bash
+## Bash
 brew install shellcheck                     # (needed)
 
-# JS
+## JS
 # brew install eslint                       # install with npm
                                             # (might not be needed)
                                             # included in
                                             #   vscode-langservers-extracted
 
-# JSON
+## JSON
 # brew install jsonlint                     # TODO: is it needed?
 
-# LaTeX
+## LaTeX
 # brew install chktex                       # NA, install with tlmgr
                                             # (not needed)
 
-# Lua
+## Lua
 # brew install luacheck                     # NA, install with luarocks
                                             # TODO: is it needed?
 
-# Markdown
+## Markdown
 # brew install marksman                     # NA
 # brew install markdownlint                 # NA, install with gem
                                             # TODO: is it needed?
 
-# Python
+## Python
 # brew install pyflakes                     # NA, install with pip
                                             # (not needed)
                                             # Flymake uses pyflakes out
                                             # of the box (optional:
                                             # flake8 or pylint)
 
-# Install package managers
-brew install luarocks
-# brew install npm   # install with nvm
+#### Casks
 
-# Use casks
+### Setup
+
+## Use casks
 brew tap homebrew/cask
-# Add alternative cask versions
-#   E.g. for emacs-pretest, emacs-nightly
+
+## Add alternative cask versions
+##   E.g. for emacs-pretest, emacs-nightly
 # brew tap homebrew/cask-versions
-# Use bundles
+
+## Use bundles
 brew tap homebrew/bundle
-# Add fonts repo
+
+## Add fonts repo
 brew tap homebrew/cask-fonts
 
-# Install other useful binaries (casks)
+## Enable App Store
+brew install mas
+
+### Packages
+
+## Install other useful binaries (casks)
 brew install --cask basictex
 
-# Install fonts
+## Install fonts
 brew install --cask font-bitstream-vera
 brew install --cask font-dejavu
 brew install --cask font-fira-code
@@ -168,7 +190,7 @@ brew install --cask font-inconsolata
 brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono
 
-# Install applications (casks)
+## Install applications (casks)
 brew install --cask alt-tab
 brew install --cask barrier
 brew install --cask bettertouchtool
@@ -210,13 +232,10 @@ brew install --cask zoom
 brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta
 
-# Enable App Store
-brew install mas
-
-# Install applications (App Store)
-#   Missing applications:
-#     dJay Pro 2
-#     dJay Pro AI
+## Install applications (App Store)
+##   Missing applications:
+##     dJay Pro 2
+##     dJay Pro AI
 mas install 937984704   # Amphetamine
 mas install 1160435653  # AutoMounter (note that AutoMounter Helper
                         # might also be needed, get it from
@@ -224,5 +243,7 @@ mas install 1160435653  # AutoMounter (note that AutoMounter Helper
 mas install 408981434   # iMovie
 mas install 784801555   # Microsoft OneNote
 
-# Remove outdated versions from the cellar
+##### Cleanup
+
+## Remove outdated versions from the cellar
 brew cleanup

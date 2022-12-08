@@ -210,6 +210,7 @@ brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask joplin
 brew install --cask karabiner-elements
+brew install --cask libreoffice-still
 brew install --cask microsoft-edge
 brew install --cask microsoft-teams
 # brew install --cask mos   # needs an update

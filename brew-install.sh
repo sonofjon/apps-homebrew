@@ -105,6 +105,7 @@ brew install ansible
 # brew install json...                      # NA, install with npm
 
 ## LaTeX
+# brew install digestif                     # NA, install with luarocks
 brew install texlab
 
 # Lua

@@ -207,6 +207,7 @@ brew install --cask emacs
 brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome
+brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask joplin

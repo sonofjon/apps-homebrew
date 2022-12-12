@@ -172,9 +172,6 @@ brew tap homebrew/cask
 ## Bundles
 brew tap homebrew/bundle
 
-## Fonts
-brew tap homebrew/cask-fonts
-
 ## App Store
 brew install mas
 
@@ -184,6 +181,7 @@ brew install mas
 brew install --cask basictex
 
 ## Fonts
+brew tap homebrew/cask-fonts
 brew install --cask font-bitstream-vera
 brew install --cask font-dejavu
 brew install --cask font-fira-code

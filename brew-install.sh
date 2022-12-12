@@ -201,7 +201,6 @@ brew install --cask darktable
 brew install --cask dropbox   # requires kernel extension
 # brew install --cask duplicacy   # discontinued upstream
 brew install --cask duplicacy-web-edition
-brew install --cask emacs
 brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome
@@ -231,6 +230,13 @@ brew install --cask vlc
 brew install --cask webtorrent
 # brew install --cask zenmap   # requires Rosetta
 brew install --cask zoom
+
+# Emacs
+# brew install --cask emacs        # Emacs For Mac OS X
+# brew tap jimeh/emacs-builds      # Emacs Builds
+# brew install --cask emacs-app-nightly-29
+brew tap d12frosted/emacs-plus   # Emacs+ (formula)
+brew install emacs-plus@29 --with-native-comp
 
 brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta

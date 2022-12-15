@@ -74,6 +74,7 @@ brew install ocrmypdf
 brew install pstree
 brew install rename
 brew install subversion
+brew install tree-sitter
 brew install texinfo
 # brew install tg44/heptapod/heptapod
 brew install tree

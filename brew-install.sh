@@ -201,6 +201,7 @@ brew install --cask coconutbattery
 brew install --cask darktable
 brew install --cask dropbox   # requires kernel extension
 # brew install --cask duplicacy   # discontinued upstream
+# brew install --cask duplicacy-cli
 brew install --cask duplicacy-web-edition
 brew install --cask evernote
 brew install --cask firefox

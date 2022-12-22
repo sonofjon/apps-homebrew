@@ -54,6 +54,7 @@ fi;
 #### Formulae
 
 ## Binaries
+brew install asimov
 brew install aspell
 brew install automake
 # brew install azure-cli
@@ -209,7 +210,7 @@ brew install --cask google-chrome
 brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2
-brew install --cask joplin
+# brew install --cask joplin   # not ready for m1
 brew install --cask karabiner-elements
 brew install --cask libreoffice-still
 brew install --cask microsoft-edge
@@ -217,6 +218,7 @@ brew install --cask microsoft-teams
 # brew install --cask mos   # needs an update
 brew install --cask mpv
 brew install --cask nomachine
+brew install --cask obsidian
 brew install --cask openvpn-connect
 brew install --cask paragon-ntfs   # requires kernel extension
 # brew install --cask pdf-toolbox

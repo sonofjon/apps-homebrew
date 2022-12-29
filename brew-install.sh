@@ -39,11 +39,11 @@ brew install coreutils   # installed with the prefix 'g'
 #  perhaps add `$(brew --prefix coreutils)/libexec/gnubin` to $PATH)
 brew install diffutils
 brew install findutils   # installed with the prefix 'g'
-# brew install gawk   # conflicts with awk package
-brew install grep   # installed with the prefix 'g'
+# brew install gawk        # conflicts with awk package
+brew install grep        # installed with the prefix 'g'
 brew install gzip
-brew install gnu-sed   # installed with the prefix 'g'
-brew install gnu-tar   # installed with the prefix 'g'
+brew install gnu-sed     # installed with the prefix 'g'
+brew install gnu-tar     # installed with the prefix 'g'
 brew install gnu-which   # installed with the prefix 'g'
 
 ### GNU programs that exist in macOS but are outdated
@@ -93,7 +93,9 @@ brew install tree-sitter
 # brew install unzip   # known to cause problems, see `brew info uzip`
 brew install vim
 
-# brew install tg44/heptapod/heptapod
+## Manage and fine-tune Time Machine exclude paths
+brew tap tg44/heptapod
+brew install heptapod
 
 ### Package managers
 brew install luarocks

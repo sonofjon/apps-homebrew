@@ -20,21 +20,41 @@ BREW_PREFIX=$(brew --prefix)
 
 #### GNU
 
-## GNU core utilities
-##   (don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin`
-##   to $PATH)
-# brew install coreutils
-# ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
+### GNU programs not present in macOS
 
-## GNU find, locate, updatedb and xargs
-##   (programs are prefixed with 'g')
-# brew install findutils
+brew install aspell
+brew install autoconf
+brew install automake
+brew install gnupg
+brew install texinfo
+brew install tree
+brew install watch
+brew install wdiff
+brew install wget
 
-## GNU sed
-##   (this overwrites the built-in 'sed')
-# brew install gnu-sed --with-default-names
+### GNU programs whose BSD counterpart is installed in macOS
 
-## Bash
+# brew install binutils
+brew install coreutils   # installed with the prefix 'g'
+#  perhaps add `$(brew --prefix coreutils)/libexec/gnubin` to $PATH)
+brew install diffutils
+brew install findutils   # installed with the prefix 'g'
+# brew install gawk   # conflicts with awk package
+brew install grep   # installed with the prefix 'g'
+brew install gzip
+brew install gnu-sed   # installed with the prefix 'g'
+brew install gnu-tar   # installed with the prefix 'g'
+brew install gnu-which   # installed with the prefix 'g'
+
+### GNU programs that exist in macOS but are outdated
+brew install less
+# brew install make      # installed with the prefix 'g'
+                         # known to cause problems, see `brew info make`
+brew install nano
+
+### Bash
+
+## Install Bash
 brew install bash
 # brew install bash-completion    # Bash 3.2
 # brew install bash-completion2   # Bash 4.2+
@@ -45,24 +65,15 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
-## Other
-##   More recent versions of macOS tools
-# brew install vim --with-override-system-vi
-# brew install grep
-# brew install openssh
-
 #### Formulae
 
-## Binaries
+### Binaries
+
 brew install asimov
-brew install aspell
-brew install automake
 # brew install azure-cli
-brew install bash
 brew install cmake
 brew install git
 brew install git-filter-repo
-brew install gnupg
 brew install hunspell
 brew install jansson
 # brew install jeffreywildman/virt-manager/virt-viewer
@@ -71,15 +82,18 @@ brew install libvterm
 brew install nmap
 # brew install nvm   # unsupported upstream
 brew install ocrmypdf
+# brew install openssh
 # brew install pdftohtml
 brew install pstree
+brew install python
 brew install rename
+brew install rsync
 brew install subversion
 brew install tree-sitter
-brew install texinfo
+# brew install unzip   # known to cause problems, see `brew info uzip`
+brew install vim
+
 # brew install tg44/heptapod/heptapod
-brew install tree
-brew install wget
 
 ### Package managers
 brew install luarocks

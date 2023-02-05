@@ -270,7 +270,7 @@ mas install 1160435653  # AutoMounter (note that AutoMounter Helper
                         # might also be needed, get it from
                         # https://www.pixeleyes.co.nz/automounter/helper/)
 mas install 408981434   # iMovie
-mas install 784801555   # Microsoft OneNote
+# mas install 784801555   # Microsoft OneNote
 
 ##### Cleanup
 

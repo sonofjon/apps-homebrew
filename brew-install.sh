@@ -211,6 +211,7 @@ brew install --cask font-source-code-pro
 
 ## Applications
 brew install --cask alt-tab
+# brew install --cask anaconda
 brew install --cask barrier
 brew install --cask bettertouchtool
 brew install --cask db-browser-for-sqlite
@@ -226,6 +227,7 @@ brew install --cask google-chrome
 brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2
+brew install --cask jitsi-meet
 # brew install --cask joplin   # not ready for m1
 brew install --cask karabiner-elements
 brew install --cask libreoffice-still
@@ -242,6 +244,7 @@ brew install --cask plex
 brew install --cask purevpn
 brew install --cask qbittorrent
 brew install --cask skype
+brew install --cask skype-for-business
 brew install --cask spotify
 # brew install --cask virtualbox   # not ready for m1
 # brew install --cask virtualbox-extension-pack

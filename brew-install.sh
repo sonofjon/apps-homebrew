@@ -154,7 +154,7 @@ brew install shellcheck                     # (needed)
                                             #   vscode-langservers-extracted
 
 ## JSON
-# brew install jsonlint                     # TODO: is it needed?
+brew install jsonlint
 
 ## LaTeX
 # brew install chktex                       # NA, install with tlmgr

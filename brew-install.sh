@@ -243,9 +243,11 @@ brew install --cask paragon-ntfs   # requires kernel extension
 brew install --cask plex
 brew install --cask purevpn
 brew install --cask qbittorrent
+brew install --cask qfinder-pro
 brew install --cask skype
 brew install --cask skype-for-business
 brew install --cask spotify
+brew install --cask synologyassistant
 # brew install --cask virtualbox   # not ready for m1
 # brew install --cask virtualbox-extension-pack
 brew install --cask visual-studio-code

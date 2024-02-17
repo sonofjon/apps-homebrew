@@ -214,7 +214,8 @@ brew install --cask font-source-code-pro
 ## Applications
 brew install --cask alt-tab
 # brew install --cask anaconda
-brew install --cask barrier
+# brew install --cask bankid
+# brew install --cask barrier
 brew install --cask bettertouchtool
 brew install --cask db-browser-for-sqlite
 brew install --cask coconutbattery

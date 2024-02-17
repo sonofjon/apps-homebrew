@@ -50,7 +50,7 @@ brew install gnu-which   # installed with the prefix 'g'
 brew install less
 # brew install make      # installed with the prefix 'g'
                          # known to cause problems, see `brew info make`
-brew install nano
+# brew install nano
 
 ### Bash
 

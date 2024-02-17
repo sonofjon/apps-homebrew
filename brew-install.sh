@@ -69,9 +69,9 @@ fi;
 
 ### Binaries
 
-brew install asimov
 # brew install azure-cli
 brew install cmake
+brew install gdu
 brew install git
 brew install git-filter-repo
 brew install hunspell
@@ -79,6 +79,7 @@ brew install jansson
 # brew install jeffreywildman/virt-manager/virt-viewer
 brew install libgccjit
 brew install libvterm
+brew install ncdu
 brew install nmap
 # brew install nvm   # unsupported upstream
 brew install ocrmypdf
@@ -94,6 +95,7 @@ brew install tree-sitter
 brew install vim
 
 ## Manage and fine-tune Time Machine exclude paths
+brew install asimov
 brew tap tg44/heptapod
 brew install heptapod
 

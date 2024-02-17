@@ -234,7 +234,7 @@ brew install --cask jitsi-meet
 # brew install --cask joplin   # not ready for m1
 brew install --cask karabiner-elements
 brew install --cask libreoffice-still
-brew install --cask microsoft-edge
+# brew install --cask microsoft-edge
 brew install --cask microsoft-teams
 # brew install --cask mos   # needs an update
 brew install --cask mpv

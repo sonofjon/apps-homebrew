@@ -270,9 +270,6 @@ brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta
 
 ## App Store
-##   Missing applications:
-##     dJay Pro 2
-##     dJay Pro AI
 mas install 937984704   # Amphetamine
 mas install 1160435653  # AutoMounter (note that AutoMounter Helper
                         # might also be needed, get it from

@@ -70,7 +70,9 @@ fi;
 ### Binaries
 
 # brew install azure-cli
+brew install btop
 brew install cmake
+brew install fzf
 brew install gdu
 brew install git
 brew install git-filter-repo

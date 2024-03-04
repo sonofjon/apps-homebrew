@@ -137,7 +137,7 @@ brew install lua-language-server
 # brew install markdown...                  # NA, install with npm
 
 ## Python
-# brew install pyright                      # TODO: install with npm or pip?
+# brew install pyright                      # install with npm
 
 ### Code linters
 ###   TODO: linting for HTML and JSON does not work
@@ -174,11 +174,8 @@ brew install jsonlint
                                             # TODO: is it needed?
 
 ## Python
-# brew install pyflakes                     # NA, install with pip
-                                            # (not needed)
-                                            # Flymake uses pyflakes out
-                                            # of the box (optional:
-                                            # flake8 or pylint)
+
+# see python-setup repo
 
 #### Casks
 

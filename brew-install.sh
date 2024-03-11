@@ -72,6 +72,7 @@ fi;
 # brew install azure-cli
 brew install btop
 brew install cmake
+brew install dasel   # for emacs-pet
 brew install fzf
 brew install gdu
 brew install git

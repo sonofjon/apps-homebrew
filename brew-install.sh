@@ -89,6 +89,7 @@ brew install nmap
 brew install ocrmypdf
 # brew install openssh
 # brew install pdftohtml
+brew install pipx && pipx ensurepath
 brew install pstree
 brew install python
 brew install rename

@@ -82,6 +82,7 @@ brew install jansson
 # brew install jeffreywildman/virt-manager/virt-viewer
 brew install libgccjit
 brew install libvterm
+brew install mmv
 brew install ncdu
 brew install nmap
 # brew install nvm   # unsupported upstream

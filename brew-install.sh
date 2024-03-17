@@ -93,6 +93,7 @@ brew install pipx && pipx ensurepath
 brew install pstree
 brew install python
 brew install rename
+brew install ripgrep
 brew install rsync
 brew install subversion
 brew install tree-sitter

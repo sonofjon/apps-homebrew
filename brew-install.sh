@@ -4,6 +4,7 @@
 #
 # Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
 #
+# TODO: plocate?, traceroute?, mos?
 
 ##### Setup
 
@@ -182,7 +183,7 @@ brew install jsonlint
 
 ## Python
 
-# see python-setup repo
+# see setup-python repo
 
 #### Casks
 
@@ -242,7 +243,7 @@ brew install --cask karabiner-elements
 brew install --cask libreoffice-still
 # brew install --cask microsoft-edge
 brew install --cask microsoft-teams
-# brew install --cask mos   # needs an update
+# brew install --cask mos   # TODO: needs an update
 brew install --cask mpv
 brew install --cask nomachine
 brew install --cask obsidian

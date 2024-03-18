@@ -78,10 +78,7 @@ brew install gdu
 brew install git
 brew install git-filter-repo
 brew install hunspell
-brew install jansson
 # brew install jeffreywildman/virt-manager/virt-viewer
-brew install libgccjit
-brew install libvterm
 brew install mmv
 brew install ncdu
 brew install nmap
@@ -104,6 +101,12 @@ brew install vim
 brew install asimov
 brew tap tg44/heptapod
 brew install heptapod
+
+### Libraries
+
+brew install jansson
+brew install libgccjit
+brew install libvterm
 
 ### Package managers
 brew install luarocks

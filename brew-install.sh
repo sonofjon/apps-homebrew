@@ -227,6 +227,7 @@ brew install --cask bettertouchtool
 brew install --cask db-browser-for-sqlite
 brew install --cask coconutbattery
 brew install --cask darktable
+brew install --cask docker
 brew install --cask dropbox   # requires kernel extension
 # brew install --cask duplicacy   # discontinued upstream
 # brew install --cask duplicacy-cli

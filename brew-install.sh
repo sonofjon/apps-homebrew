@@ -190,7 +190,7 @@ brew install jsonlint
 ### Setup
 
 ## Standard casks
-brew tap homebrew/cask
+# brew tap homebrew/cask   # no longer needed
 
 ## Alternative cask versions
 ##   E.g. for emacs-pretest, emacs-nightly

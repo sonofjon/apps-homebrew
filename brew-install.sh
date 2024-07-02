@@ -97,6 +97,7 @@ brew install subversion
 brew install tree-sitter
 # brew install unzip   # known to cause problems, see `brew info uzip`
 brew install vim
+brew install wakeonlan
 
 ## Manage and fine-tune Time Machine exclude paths
 brew install asimov

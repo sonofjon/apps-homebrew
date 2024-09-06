@@ -236,6 +236,7 @@ brew install --cask duplicacy-web-edition
 brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome
+brew install --cask handbrake
 brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2

@@ -220,13 +220,14 @@ brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono
 
 ## Applications
+brew install --cask adobe-acrobat-reader
 brew install --cask alt-tab
 # brew install --cask anaconda
-# brew install --cask bankid
+# brew install --cask bankid   # safer to install manually!
 # brew install --cask barrier
 brew install --cask bettertouchtool
-brew install --cask db-browser-for-sqlite
 brew install --cask coconutbattery
+brew install --cask db-browser-for-sqlite
 brew install --cask darktable
 brew install --cask docker
 brew install --cask dropbox   # requires kernel extension
@@ -240,28 +241,25 @@ brew install --cask handbrake
 brew install --cask hiddenbar   # alternatives: bartender, dozer,
                                 # jordanbaird-ice, vanilla (App store:
                                 # barbee)
+brew install --cask iina   # mpv
 brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask jitsi-meet
-# brew install --cask joplin   # not ready for m1
 brew install --cask karabiner-elements
 brew install --cask libreoffice-still
-# brew install --cask microsoft-edge
 brew install --cask microsoft-teams
 # brew install --cask mos   # TODO: needs an update
-brew install --cask mpv
-brew install --cask nomachine
+# brew install --cask mpv   # no gui
+# brew install --cask nomachine
 brew install --cask obsidian
 brew install --cask openvpn-connect
 brew install --cask paragon-ntfs   # requires kernel extension
 # brew install --cask pdf-toolbox
 brew install --cask plex
-brew install --cask purevpn
+brew install --cask protonvpn
 brew install --cask qbittorrent
 brew install --cask qfinder-pro
-brew install --cask skype
-brew install --cask skype-for-business
 brew install --cask spotify
 brew install --cask synologyassistant
 # brew install --cask virtualbox   # not ready for m1

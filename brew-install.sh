@@ -260,6 +260,7 @@ brew install --cask protonvpn
 brew install --cask qbittorrent
 # brew install --cask qfinder-pro   # requires Rosetta
 brew install --cask spotify
+# brew install --cask stats   # replacement for istat-menus
 brew install --cask synologyassistant
 # brew install --cask virtualbox   # not ready for m1
 # brew install --cask virtualbox-extension-pack

@@ -211,7 +211,7 @@ brew install --cask basictex
 # brew install --cask font-dejavu
 # brew install --cask font-fira-code
 # brew install --cask font-fira-mono
-# brew install --cask font-hack
+brew install --cask font-hack
 # brew install --cask font-inconsolata
 # brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono

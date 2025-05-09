@@ -269,11 +269,11 @@ brew install --cask vlc
 brew install --cask zoom
 
 # Emacs
-# brew install --cask emacs        # Emacs For Mac OS X
+brew install --cask emacs        # Emacs For Mac OS X
 # brew tap jimeh/emacs-builds      # Emacs Builds
 # brew install --cask emacs-app-nightly-29
-brew tap d12frosted/emacs-plus   # Emacs+ (formula)
-brew install emacs-plus@29 --with-native-comp
+# brew tap d12frosted/emacs-plus   # Emacs+ (formula)
+# brew install emacs-plus@30 --with-native-comp
 
 # brew install --cask garmin-express   # requires Rosetta
 

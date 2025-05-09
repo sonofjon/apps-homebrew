@@ -197,9 +197,6 @@ brew install jsonlint
 ##   E.g. for emacs-pretest, emacs-nightly
 # brew tap homebrew/cask-versions
 
-## Bundles
-brew tap homebrew/bundle
-
 ## App Store
 brew install mas
 
@@ -278,7 +275,6 @@ brew install --cask zoom
 brew tap d12frosted/emacs-plus   # Emacs+ (formula)
 brew install emacs-plus@29 --with-native-comp
 
-brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta
 
 ## App Store

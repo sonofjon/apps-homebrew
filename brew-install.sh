@@ -234,6 +234,7 @@ brew install --cask dropbox   # requires kernel extension
 brew install --cask duplicacy-web-edition
 # brew install --cask evernote
 brew install --cask firefox
+# brew install --cask garmin-express   # requires Rosetta?
 brew install --cask google-chrome
 # brew install --cask handbrake
 brew install --cask hiddenbar   # alternatives: bartender, dozer,
@@ -275,7 +276,6 @@ brew install --cask emacs        # Emacs For Mac OS X
 # brew tap d12frosted/emacs-plus   # Emacs+ (formula)
 # brew install emacs-plus@30 --with-native-comp
 
-# brew install --cask garmin-express   # requires Rosetta
 
 ## App Store
 # mas install 937984704   # Amphetamine

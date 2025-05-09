@@ -73,7 +73,7 @@ fi;
 # brew install azure-cli
 brew install btop
 brew install cmake
-brew install dasel   # for emacs-pet
+# brew install dasel   # for emacs-pet
 brew install fzf
 brew install gdu
 brew install git
@@ -82,7 +82,7 @@ brew install hunspell
 # brew install jeffreywildman/virt-manager/virt-viewer
 brew install mmv
 brew install ncdu
-brew install nmap
+# brew install nmap
 # brew install nvm   # unsupported upstream
 brew install ocrmypdf
 # brew install openssh
@@ -93,16 +93,16 @@ brew install python
 brew install rename
 brew install ripgrep
 brew install rsync
-brew install subversion
+# brew install subversion
 brew install tree-sitter
 # brew install unzip   # known to cause problems, see `brew info uzip`
 brew install vim
 brew install wakeonlan
 
 ## Manage and fine-tune Time Machine exclude paths
-brew install asimov
-brew tap tg44/heptapod
-brew install heptapod
+# brew install asimov
+# brew tap tg44/heptapod
+# brew install heptapod
 
 ### Libraries
 
@@ -111,7 +111,7 @@ brew install libgccjit
 brew install libvterm
 
 ### Package managers
-brew install luarocks
+# brew install luarocks
 # brew install npm   # install with nvm
 
 ### Code libraries
@@ -137,10 +137,10 @@ brew install ansible
 
 ## LaTeX
 # brew install digestif                     # NA, install with luarocks
-brew install texlab
+# brew install texlab
 
 # Lua
-brew install lua-language-server
+# brew install lua-language-server
 
 ## Markdown
 # brew install markdown...                  # NA, install with npm
@@ -209,39 +209,40 @@ brew install mas
 brew install --cask basictex
 
 ## Fonts
-brew tap homebrew/cask-fonts
-brew install --cask font-bitstream-vera
-brew install --cask font-dejavu
-brew install --cask font-fira-code
-brew install --cask font-fira-mono
-brew install --cask font-hack
-brew install --cask font-inconsolata
-brew install --cask font-source-code-pro
+# brew tap homebrew/cask-fonts
+# brew install --cask font-bitstream-vera
+# brew install --cask font-dejavu
+# brew install --cask font-fira-code
+# brew install --cask font-fira-mono
+# brew install --cask font-hack
+# brew install --cask font-inconsolata
+# brew install --cask font-source-code-pro
 # brew install --cask font-ubuntu-mono
 
 ## Applications
-brew install --cask adobe-acrobat-reader
+# brew install --cask adobe-acrobat-reader
 brew install --cask alt-tab
 # brew install --cask anaconda
 # brew install --cask bankid   # safer to install manually!
 # brew install --cask barrier
 brew install --cask bettertouchtool
-brew install --cask coconutbattery
-brew install --cask db-browser-for-sqlite
+brew install --cask bitwarden
+# brew install --cask coconutbattery
+# brew install --cask db-browser-for-sqlite
 brew install --cask darktable
 brew install --cask docker
 brew install --cask dropbox   # requires kernel extension
 # brew install --cask duplicacy   # discontinued upstream
 # brew install --cask duplicacy-cli
 brew install --cask duplicacy-web-edition
-brew install --cask evernote
+# brew install --cask evernote
 brew install --cask firefox
 brew install --cask google-chrome
-brew install --cask handbrake
+# brew install --cask handbrake
 brew install --cask hiddenbar   # alternatives: bartender, dozer,
                                 # jordanbaird-ice, vanilla (App store:
                                 # barbee)
-brew install --cask iina   # mpv
+# brew install --cask iina   # mpv
 brew install --cask inkscape
 brew install --cask istat-menus
 brew install --cask iterm2
@@ -253,20 +254,20 @@ brew install --cask microsoft-teams
 # brew install --cask mpv   # no gui
 # brew install --cask nomachine
 brew install --cask obsidian
-brew install --cask openvpn-connect
-brew install --cask paragon-ntfs   # requires kernel extension
+# brew install --cask openvpn-connect
+# brew install --cask paragon-ntfs   # requires kernel extension
 # brew install --cask pdf-toolbox
 brew install --cask plex
 brew install --cask protonvpn
 brew install --cask qbittorrent
-brew install --cask qfinder-pro
+# brew install --cask qfinder-pro   # requires Rosetta
 brew install --cask spotify
 brew install --cask synologyassistant
 # brew install --cask virtualbox   # not ready for m1
 # brew install --cask virtualbox-extension-pack
 brew install --cask visual-studio-code
 brew install --cask vlc
-brew install --cask webtorrent
+# brew install --cask webtorrent   # requires Rosetta
 # brew install --cask zenmap   # requires Rosetta
 brew install --cask zoom
 
@@ -281,11 +282,11 @@ brew tap homebrew/cask-drivers
 # brew install --cask garmin-express   # requires Rosetta
 
 ## App Store
-mas install 937984704   # Amphetamine
-mas install 1160435653  # AutoMounter (note that AutoMounter Helper
+# mas install 937984704   # Amphetamine
+# mas install 1160435653  # AutoMounter (note that AutoMounter Helper
                         # might also be needed, get it from
                         # https://www.pixeleyes.co.nz/automounter/helper/)
-mas install 408981434   # iMovie
+# mas install 408981434   # iMovie
 # mas install 784801555   # Microsoft OneNote
 
 ##### Cleanup

@@ -74,6 +74,7 @@ fi;
 brew install btop
 brew install cmake
 # brew install dasel   # for emacs-pet
+brew install enchant
 brew install fzf
 brew install gdu
 brew install git
@@ -88,6 +89,7 @@ brew install ocrmypdf
 # brew install openssh
 # brew install pdftohtml
 brew install pipx && pipx ensurepath
+brew install pkgconf
 brew install pstree
 brew install python
 brew install rename

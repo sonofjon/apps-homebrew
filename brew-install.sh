@@ -255,6 +255,8 @@ brew install --cask libreoffice-still
 brew install --cask microsoft-teams
 # brew install --cask mos   # TODO: needs an update
 # brew install --cask mpv   # no gui
+brew install --cask nextcloud
+# brew install --cask nextcloud-vfs
 # brew install --cask nomachine
 brew install --cask obsidian
 # brew install --cask openvpn-connect

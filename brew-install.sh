@@ -88,7 +88,7 @@ brew install ncdu
 brew install ocrmypdf
 # brew install openssh
 # brew install pdftohtml
-brew install pipx && pipx ensurepath
+brew install pipx
 brew install pkgconf
 brew install pstree
 brew install python

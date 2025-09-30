@@ -1,2 +1,2 @@
-# homebrew-apps
+# apps-homebrew
 Homebrew bootstrap

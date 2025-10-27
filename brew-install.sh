@@ -146,6 +146,7 @@ brew install ansible
 
 ## Markdown
 # brew install markdown...                  # NA, install with npm
+brew install marksman
 
 ## Python
 # brew install pyright                      # install with npm
@@ -180,7 +181,6 @@ brew install jsonlint
                                             # TODO: is it needed?
 
 ## Markdown
-# brew install marksman                     # NA
 # brew install markdownlint                 # NA, install with gem
                                             # TODO: is it needed?
 

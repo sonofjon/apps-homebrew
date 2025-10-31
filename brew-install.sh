@@ -98,6 +98,7 @@ brew install rsync
 # brew install subversion
 brew install tree-sitter
 # brew install unzip   # known to cause problems, see `brew info uzip`
+brew install uv
 brew install vim
 brew install wakeonlan
 

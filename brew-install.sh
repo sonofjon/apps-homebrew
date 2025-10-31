@@ -77,6 +77,7 @@ brew install cmake
 brew install enchant
 brew install fzf
 brew install gdu
+brew install gemini-cli
 brew install git
 brew install git-filter-repo
 brew install hunspell
@@ -207,6 +208,8 @@ brew install mas
 
 ## Binaries
 brew install --cask basictex
+brew install --cask claude-code
+brew install --cask codex
 
 ## Fonts
 # brew tap homebrew/cask-fonts

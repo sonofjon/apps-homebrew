@@ -208,7 +208,7 @@ brew install mas
 
 ## Binaries
 brew install --cask basictex
-brew install --cask claude-code
+# brew install --cask claude-code   # problematic, use native install
 brew install --cask codex
 
 ## Fonts

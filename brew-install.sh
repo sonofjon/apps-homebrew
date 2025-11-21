@@ -86,7 +86,7 @@ brew install mmv
 brew install ncdu
 # brew install nmap
 # brew install nvm   # unsupported upstream
-brew install ocrmypdf
+# brew install ocrmypdf
 # brew install openssh
 # brew install pdftohtml
 brew install pipx

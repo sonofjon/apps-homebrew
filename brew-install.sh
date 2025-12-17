@@ -179,8 +179,7 @@ brew install jsonlint
                                             # (not needed)
 
 ## Lua
-# brew install luacheck                     # NA, install with luarocks
-                                            # TODO: is it needed?
+# brew install luacheck
 
 ## Markdown
 # brew install markdownlint                 # NA, install with gem

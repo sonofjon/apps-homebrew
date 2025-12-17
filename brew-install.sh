@@ -4,7 +4,7 @@
 #
 # Reference: https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
 #
-# TODO: plocate?, traceroute?, mos?
+# TODO: plocate?, traceroute?
 
 ##### Setup
 
@@ -257,7 +257,6 @@ brew install --cask jitsi-meet
 brew install --cask karabiner-elements
 brew install --cask libreoffice-still
 brew install --cask microsoft-teams
-# brew install --cask mos   # TODO: needs an update
 # brew install --cask mpv   # no gui
 brew install --cask nextcloud
 # brew install --cask nextcloud-vfs

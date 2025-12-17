@@ -182,8 +182,8 @@ brew install jsonlint
 # brew install luacheck
 
 ## Markdown
-# brew install markdownlint                 # NA, install with gem
-                                            # TODO: is it needed?
+# brew install markdownlint-cli
+# brew install markdownlint-cli2
 
 ## Python
 

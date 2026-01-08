@@ -73,7 +73,7 @@ fi;
 # brew install azure-cli
 brew install btop
 brew install cmake
-# brew install dasel   # for emacs-pet
+# brew install dasel   # for Emacs emacs-pet
 brew install enchant
 brew install fzf
 brew install gdu
@@ -96,6 +96,7 @@ brew install python
 brew install rename
 brew install ripgrep
 brew install rsync
+# brew install socat   # for Emacs mcp-server
 # brew install subversion
 brew install tree-sitter
 # brew install unzip   # known to cause problems, see `brew info uzip`

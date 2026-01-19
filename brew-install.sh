@@ -72,6 +72,7 @@ fi;
 
 # brew install azure-cli
 brew install btop
+brew install copilot-cli   # or via npm
 brew install cmake
 # brew install dasel   # for Emacs emacs-pet
 brew install enchant

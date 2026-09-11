@@ -79,6 +79,7 @@ brew install enchant
 brew install fzf
 brew install gdu
 brew install gemini-cli
+brew install gh
 brew install git
 brew install git-filter-repo
 brew install hunspell

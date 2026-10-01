@@ -77,7 +77,7 @@ brew install cmake
 brew install enchant
 brew install fzf
 brew install gdu
-brew install gemini-cli   # or via npm
+brew install gemini-cli   # deprecated, use npm
 brew install gh
 brew install git
 brew install git-filter-repo

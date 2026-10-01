@@ -72,7 +72,6 @@ fi;
 
 # brew install azure-cli
 brew install btop
-brew install copilot-cli   # or via npm
 brew install cmake
 # brew install dasel   # for Emacs emacs-pet
 brew install enchant
@@ -212,6 +211,7 @@ brew install mas
 brew install --cask basictex
 # brew install --cask claude-code   # problematic, use native install
 brew install --cask codex
+brew install --cask copilot-cli   # or via npm
 
 ## Fonts
 # brew tap homebrew/cask-fonts

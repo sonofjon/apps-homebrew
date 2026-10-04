@@ -83,6 +83,7 @@ brew install git
 brew install git-filter-repo
 brew install hunspell
 # brew install jeffreywildman/virt-manager/virt-viewer
+# brew install jq   # included in macOS
 brew install mmv
 brew install ncdu
 # brew install nmap
